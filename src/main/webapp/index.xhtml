@@ -14,7 +14,7 @@
     <h:body>
 
         <pm:page id="main">
-            <pm:header title="HECAS"></pm:header>
+            <pm:header title="HEALTHY CROPS ASSISTANCE SYSTEM"></pm:header>
             <pm:content>
                 <p:graphicImage value="/resources/imagenes/hecas.png" width="150px" height="150px"/>
                
@@ -27,13 +27,21 @@
                     <p:password />
                     </pm:field>  
                 <p:panelGrid columns="3">
-                <p:button value="Entrar" outcome="menu" icon="ui-icon-info"/>
-                <p:button value="Registrar" outcome="registrarusuarios" icon="ui-icon-info"/>
-                <p:button value="Olvido contraseña" outcome="recordarpassword" icon="ui-icon-info"/>
+                
+                
                 </p:panelGrid>
                 
             </pm:content>
-            <pm:footer title="Hecas Team"></pm:footer>
+            <p:panelGrid columns="2">
+                <p:button value="Entrar" outcome="menu" icon="ui-icon-info"/>
+                <p:button value="Registrar" outcome="registrarusuarios" icon="ui-icon-info"/>
+            </p:panelGrid>
+            <pm:footer >
+                
+                
+                <center><p:button value="Olvido contraseña" outcome="recordarpassword" icon="ui-icon-info"/></center>
+                
+            </pm:footer>
         </pm:page>
        
     </h:body>
